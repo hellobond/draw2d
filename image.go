@@ -11,8 +11,8 @@ import (
 	"log"
 	"math"
 
-	"code.google.com/p/freetype-go/freetype/raster"
-	"code.google.com/p/freetype-go/freetype/truetype"
+	"github.com/golang/freetype/raster"
+	"github.com/golang/freetype/truetype"
 )
 
 type Painter interface {

@@ -6,7 +6,7 @@ package draw2d
 import (
 	"math"
 
-	"code.google.com/p/freetype-go/freetype/raster"
+	"github.com/golang/freetype/raster"
 )
 
 func arc(t VertexConverter, x, y, rx, ry, start, angle, scale float64) (lastX, lastY float64) {

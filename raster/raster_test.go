@@ -9,7 +9,7 @@ import (
 	"os"
 	"testing"
 
-	"code.google.com/p/freetype-go/freetype/raster"
+	"github.com/golang/freetype/raster"
 	"github.com/llgcode/draw2d/curve"
 )
 
